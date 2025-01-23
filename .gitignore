@@ -1,0 +1,39 @@
+# Local Terraform state
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Ignore override files as they are usually specific to a user or environment
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore Terraform variable files that might contain sensitive data
+*.auto.tfvars
+*.auto.tfvars.json
+*.tfvars
+*.tfvars.json
+
+# Ignore the .terraform directory, which contains local modules and plugin caches
+.terraform/
+.terraform.lock.hcl
+
+# Ignore sensitive AWS credentials or similar environment-specific files
+*.env
+.terraform/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# OS-specific files
+.DS_Store
+Thumbs.db
