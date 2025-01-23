@@ -1,0 +1,28 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "flight_id",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "InFlight",
+        "KeySchema": [
+            {
+                "AttributeName": "flight_id",
+                "KeyType": "HASH"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": "2025-01-20T14:44:19.349000-05:00",
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 5,
+            "WriteCapacityUnits": 5
+        },
+        "TableSizeBytes": 82,
+        "ItemCount": 1,
+        "TableArn": "arn:aws:dynamodb:us-east-1:<account_id>:table/InFlight",
+        "TableId": "3b250354-a68a-4a6d-b84d-584020dfec14"
+    }
+}

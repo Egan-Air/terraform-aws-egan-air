@@ -83,4 +83,4 @@ def convert_dynamodb_to_terraform(input_file, output_file):
 
 # Example usage
 # Replace 'table-details.json' with your input JSON file and 'dynamodb_table.tf' with your desired output file
-convert_dynamodb_to_terraform('dyn-db-table-flight-sched.jsoon', 'ddb_table_flight_sched.tf')
+convert_dynamodb_to_terraform('arrive_flights.json', 'ddb_table_arrivals.tf')

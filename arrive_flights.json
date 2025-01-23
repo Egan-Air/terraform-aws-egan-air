@@ -1,0 +1,40 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "arrival_time",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "flight_id",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "ArrivingFlights",
+        "KeySchema": [
+            {
+                "AttributeName": "flight_id",
+                "KeyType": "HASH"
+            },
+            {
+                "AttributeName": "arrival_time",
+                "KeyType": "RANGE"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": "2025-01-17T21:19:48.760000-05:00",
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 0,
+            "WriteCapacityUnits": 0
+        },
+        "TableSizeBytes": 169,
+        "ItemCount": 2,
+        "TableArn": "arn:aws:dynamodb:us-east-1:<account_id>:table/ArrivingFlights",
+        "TableId": "8ed3bfd1-1ee6-4b16-bfdc-783ba8833b9e",
+        "BillingModeSummary": {
+            "BillingMode": "PAY_PER_REQUEST",
+            "LastUpdateToPayPerRequestDateTime": "2025-01-17T21:19:48.760000-05:00"
+        }
+    }
+}
